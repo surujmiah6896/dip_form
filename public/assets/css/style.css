@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    width: 700px;
+    height: 600px;
+    background: #dfe5f3;
+    margin: 100px auto;
+}
+.main {
+    width: 600px;
+    margin: 100px auto;
+    padding: 44px;
+}
+
+.single-form {
+    margin-bottom: 25px;
+}
+
+.single-form label {
+    display: block;
+    font-size: 22px;
+}
+
+.single-form input, .single-form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.single-form input[type="submit"] {
+    background-color: #3479d8;
+    border: 0;
+    color: #ffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+label {}
